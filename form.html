@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Сайт Визитка</title>
+</head>
+<body>
+
+    <div id="wrapper">
+        <header class="clearfix">
+            <h1 id="logo"><span style="color:rgb(74, 6, 138)">Сайт</span> визитка </h1>     
+<nav id="mainnav">
+            <ul>
+                <li class="active"><a href="uslugi.html" style="color: white;">Услуги</a></li>
+                <li class="active"><a href="about_us.html" style="color: white;">О нас</a></li>
+                <li class="active"><a href="clients.html" style="color: white;">Клиенты</a></li>
+                <li class="active"><a href="contacts.html" style="color: white;">Контакты</a></li>
+            </ul>
+        </nav>
+        </header>
+<main>
+  <form action="1" id="contact-form">
+      <div class="form_item">
+          <label for="topic"><i>Тема</i></label><br>
+          <select name="topic" id="topic">
+          <option value="1">Заказать услугу</option>
+          <option value="2">Оставить отзыв</option>
+          <option value="3">Предложить сотрудничество</option>
+          <option value="4">Другое</option>
+        </select>
+      </div>
+    <div class="form_item">
+        <label for="name"><i>Имя</i></label><br>
+        <input name="name" id="name" type="text" placeholder="Ваше имя" required>
+        
+    </div>
+    <div class="form_item">
+        <label for="name"><i>email</i></label><br>
+        <input name="name" id="email" type="text" placeholder="Ваш email" required> 
+    </div>
+    <div class="form_item">
+        <label for="textarea"><i>Текст сообщения</i></label><br> 
+        <textarea id="textarea" cols="30" rows="10" required></textarea>
+    </div>
+    <div class="form_item">
+        <input type="submit">
+    </div>
+    
+  </form>  
+</main>
+</div>
+    <footer>
+        <p class="footer_block">
+          <a href="form.html">Написать нам &#9650;</a>  
+        </p>
+
+        <p class="footer_block">
+            &copy; Новая компания
+        </p>
+
+        <div class="footer_icons">
+            
+            <img class="footer_img" src="img/mailru.png" alt="mailru">
+
+            <img class="footer_img" src="img/ok.png" alt="ok">
+
+            <img class="footer_img" src="img/vk.png" alt="vk">
+        </div>
+    </footer>
+    
+</body>
+</html>
